@@ -306,7 +306,8 @@ def build():
     doc = SimpleDocTemplate(str(OUT_PATH), pagesize=A4,
                              topMargin=2 * cm, bottomMargin=2 * cm,
                              leftMargin=2 * cm, rightMargin=2 * cm,
-                             title="Phase 1 Report - Statistics Project")
+                             title="Phase 1 Report - Statistics Project",
+                             author="Aida Abasi")
     doc.build(story)
     print("wrote", OUT_PATH)
 
