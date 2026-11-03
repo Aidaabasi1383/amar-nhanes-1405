@@ -59,6 +59,8 @@ def build():
     story.append(Paragraph("Phase 1: Study Design, Data, and Descriptive Statistics", styles["Heading2"]))
     story.append(Spacer(1, 1 * cm))
     story.append(Paragraph("Track A &ndash; NHANES 2021&ndash;2023", styles["Heading3"]))
+    story.append(Spacer(1, 0.3 * cm))
+    story.append(Paragraph("Student: Aida Abasi &ndash; Student ID: 401170897", styles["Heading3"]))
     story.append(Spacer(1, 0.5 * cm))
     story.append(Paragraph(
         "Working research question: Is mean systolic blood pressure among U.S. adults "
