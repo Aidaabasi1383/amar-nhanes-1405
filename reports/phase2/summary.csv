@@ -1,0 +1,31 @@
+Measure,Value
+BP cohort n,5824.0
+Known smoking n,5817.0
+High SBP count,910.0
+"P(A), known smoking",0.15609420663572288
+"P(B), known smoking",0.1507649991404504
+P(A and B),0.026474127557160047
+P(A)P(B),0.02353354292926405
+P(A | B),0.17559863169897377
+P(A | B complement),0.15263157894736842
+"P(B | A), Bayes",0.1696035242290749
+"P(B | A), direct",0.1696035242290749
+"Unweighted P(A), BP cohort",0.15625
+"MEC-weighted P(A), BP cohort",0.12525164676321893
+Bernoulli variance,0.1318359375
+Binomial mean,3.125
+Binomial variance,2.63671875
+Subsample mean,3.1041
+Subsample variance,2.56086319
+SBP mean,123.03428342490844
+SBP variance,326.94304015349206
+SBP SD,18.081566308079953
+SBP median,120.66666666666669
+SBP skewness,0.9336642256999755
+Lower Tukey fence,77.66666666666673
+Upper Tukey fence,165.66666666666663
+Below lower fence,3.0
+Above upper fence,151.0
+Normal P(A),0.1740482140751039
+Sleep-SBP pairs,5765.0
+Sleep-SBP covariance,0.36542234932966533
