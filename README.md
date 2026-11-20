@@ -2,7 +2,8 @@
 
 **مسیر:** الف — NHANES 2021–2023
 **دانشجو:** آیدا عباسی — شماره دانشجویی: ۴۰۱۱۷۰۸۹۷
-**وضعیت فعلی:** فاز ۱ تکمیل‌شده (برچسب `phase-1`)
+**وضعیت فعلی:** فازهای ۱ و ۲ تکمیل‌شده‌اند
+
 **مخزن گیت‌هاب (مرجع اصلی تحویل):** https://github.com/Aidaabasi1383/amar-nhanes-1405
 
 سؤال آماری اصلی پروژه و جزئیات کامل در [`PROJECT_CARD.md`](PROJECT_CARD.md)
@@ -58,7 +59,25 @@ python3 src/build_report.py
 | فاز | موضوع | وضعیت |
 |---|---|---|
 | ۱ | شناخت مطالعه، داده و آمار توصیفی | ✅ تکمیل (`phase-1`) |
-| ۲ | احتمال و توزیع‌های احتمالی | در انتظار |
+| ۲ | احتمال و توزیع‌های احتمالی | ✅ تکمیل (`phase-2`) |
 | ۳ | نمونه‌گیری، برآورد و استنباط آماری | در انتظار |
 | ۴ | رگرسیون، همبستگی و تشخیص مدل | در انتظار |
 | ۵ | تحلیل تکمیلی، استحکام و جمع‌بندی | در انتظار |
+
+## Phase 2 — Probability and distributions
+
+- [Report](reports/phase2.pdf)
+- [Notebook](notebooks/phase2_probability.ipynb)
+- [Analysis code](src/phase2.py)
+- [CSV tables](reports/phase2/) and [figures](figures/phase2/)
+
+Run from the project root after installing `requirements.txt`:
+
+```bash
+python3 src/phase2.py
+python3 src/build_phase2_report.py
+```
+
+Both commands use the Phase 1 analytic CSV. To rebuild the CSV from the
+official NHANES files, follow [the data guide](data/README.md). The simulation
+uses a fixed seed and draws 20 distinct participants per repetition.
