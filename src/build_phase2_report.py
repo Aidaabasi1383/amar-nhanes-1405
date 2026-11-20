@@ -127,7 +127,6 @@ def build():
     body("The Phase 1 analytical CSV and its preparation steps are documented in data/README.md. "
          "Run python3 src/phase2.py to regenerate the CSV tables and figures and "
          "python3 src/build_phase2_report.py to rebuild this report.")
-    body("Analysis and report draft prepared with AI assistance for student review.")
 
     def footer(canvas, doc):
         canvas.setFillColor(colors.HexColor("#496477"))
